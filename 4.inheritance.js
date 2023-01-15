@@ -33,3 +33,10 @@ dog1.printName();
 const tiger1 = new Tiger("어흥", "🐯");
 tiger1.printName();
 tiger1.hunt();
+
+console.log(dog1 instanceof Dog);
+console.log(dog1 instanceof Animal);
+console.log(dog1 instanceof Tiger);
+console.log(tiger1 instanceof Dog);
+console.log(tiger1 instanceof Animal);
+console.log(tiger1 instanceof Tiger);
